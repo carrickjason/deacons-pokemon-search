@@ -1,0 +1,16 @@
+{
+  "name": "deacons-pokemon-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=8000 --open=/src/index.html --watch=src",
+    "dev": "live-server --port=8000 --open=/src/index.html --watch=src --no-browser",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
